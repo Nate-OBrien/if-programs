@@ -1,3 +1,9 @@
+/* 
+Name: Nate O'Brien
+Date: 9/24/24
+Program Name: If statements
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -5,6 +11,7 @@ int userGuess;
 int main(){
     int anshBench = 515;
 
+    /* runs until user gets correct answer*/
     while (true){
         cout << "\nHow much can ansh bench? ";
         cin >> userGuess;
